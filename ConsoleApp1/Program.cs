@@ -12,7 +12,7 @@ namespace ConsoleApp1
         {
             //Input from use;
             //Console.WriteLine("Please type directory path for which you want sub-directory and file info:");
-            
+            //string input = Console.Readline();
             string input = "c:\\"; 
             
             if (!System.IO.Directory.Exists(input))
@@ -29,7 +29,7 @@ namespace ConsoleApp1
             Console.WriteLine(String.Concat("Total Directories: ", dirInfos.Length));
 
             Console.WriteLine("Press any key to exit.");
-            Console.ReadKey();
+            //Console.ReadKey();
         }
     }
 }
