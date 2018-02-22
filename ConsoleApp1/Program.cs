@@ -13,7 +13,7 @@ namespace ConsoleApp1
             //Input from use
             //Console.WriteLine("Please type directory path for which you want sub-directory and file info:");
 
-            string input = args[0];//Console.ReadLine();
+            string input = "c:\";//Console.ReadLine();
             if (!System.IO.Directory.Exists(input))
             {
                 Console.WriteLine("Directory path doesn't exist.");
